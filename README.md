@@ -32,7 +32,7 @@ Le projet est développé en **Python**, en utilisant **OpenCV** et **NumPy**.
 
 
 ## Installation
-### 1 Cloner le projet :
+### 1-Cloner le projet :
 
 ```bash
 git clone https://github.com/erraguibiabdelilah/vehicle-speed-estimator.git
@@ -40,7 +40,7 @@ cd vehicle-speed-estimator
 ```
     
 
-### Créer un environnement virtuel (optionnel mais recommandé) :
+### 2-Créer un environnement virtuel (optionnel mais recommandé) :
 
 ```bash
 python -m venv venv
@@ -49,14 +49,14 @@ venv\Scripts\activate      # Windows
 ```
 
 
-###Installer les dépendances :
+### 3-Installer les dépendances :
 ```bash
 pip install opencv-python numpy
 ```
 
 
-##Exécution du projet
-###🔹 Méthode 1 : Lucas-Kanade (point manuel)
+## Exécution du projet
+### 🔹 Méthode 1 : Lucas-Kanade (point manuel)
 ```bash python lucas_kanade.py 
 ```
 -La vidéo car2.mp4 est chargée
@@ -67,7 +67,7 @@ pip install opencv-python numpy
 
 -Le vecteur de déplacement est affiché en vert
 
-###🔹 Méthode 2 : Farneback (automatique)
+### 🔹 Méthode 2 : Farneback (automatique)
 ```bash python farneback_auto.py
 ```
 -Le mouvement est détecté automatiquement
